@@ -1,0 +1,4 @@
+Accuracy,Precision,Recall,F1,AUC-ROC,Protocol,Model,Folds,Test Obs
+0.5821,0.6596,0.768,0.7097,0.5048,Step 2b - WF 500/100 no embargo,MLP,14,1400
+0.6371,0.6618,0.9291,0.773,0.5239,Step 2b - WF 500/100 no embargo,LSTM,14,1400
+0.6586,0.6628,0.9903,0.7941,0.5831,Step 2b - WF 500/100 no embargo,CNN-GAF,14,1400

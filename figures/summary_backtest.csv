@@ -1,0 +1,16 @@
+Protocol,Model,Total Return,Buy & Hold Return,Sharpe,B&H Sharpe,Max Drawdown,Exposure,Trades
+Step 1 - leaky single split,MLP,8.09,8.53,0.272,0.281,-23.73,0.986,15
+Step 1 - leaky single split,LSTM,8.47,8.53,0.28,0.281,-24.5,1.0,1
+Step 1 - leaky single split,CNN-GAF,8.47,8.53,0.28,0.281,-24.5,1.0,1
+Step 2a - WF 500/500 no embargo,MLP,57.99,77.55,0.668,0.801,-33.72,0.958,75
+Step 2a - WF 500/500 no embargo,LSTM,77.46,77.55,0.8,0.801,-33.72,1.0,1
+Step 2a - WF 500/500 no embargo,CNN-GAF,81.41,77.55,0.835,0.801,-33.72,0.961,27
+Step 2b - WF 500/100 no embargo,MLP,3.86,81.35,0.131,0.621,-36.14,0.774,275
+Step 2b - WF 500/100 no embargo,LSTM,66.38,81.35,0.562,0.621,-33.72,0.934,65
+Step 2b - WF 500/100 no embargo,CNN-GAF,82.66,81.35,0.629,0.621,-33.72,0.994,5
+Step 3b - WF 500/500 with embargo,MLP,49.87,68.43,0.601,0.734,-33.72,0.958,75
+Step 3b - WF 500/500 with embargo,LSTM,68.35,68.43,0.733,0.734,-33.72,1.0,1
+Step 3b - WF 500/500 with embargo,CNN-GAF,72.09,68.43,0.767,0.734,-33.72,0.961,27
+Step 3c - WF 500/100 with embargo,MLP,-7.01,72.01,0.027,0.575,-35.95,0.774,267
+Step 3c - WF 500/100 with embargo,LSTM,52.84,72.01,0.482,0.575,-33.72,0.946,59
+Step 3c - WF 500/100 with embargo,CNN-GAF,71.03,72.01,0.572,0.575,-33.72,0.986,9

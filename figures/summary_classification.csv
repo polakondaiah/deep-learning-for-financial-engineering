@@ -1,0 +1,16 @@
+Protocol,Model,Accuracy,Precision,Recall,F1,AUC-ROC,Folds,Test Obs
+Step 1 - leaky single split,MLP,0.5391,0.5414,0.9843,0.6986,0.5221,,
+Step 1 - leaky single split,LSTM,0.5425,0.5425,1.0,0.7034,0.4866,,
+Step 1 - leaky single split,CNN-GAF,0.5425,0.5425,1.0,0.7034,0.4803,,
+Step 2a - WF 500/500 no embargo,MLP,0.687,0.7098,0.951,0.8129,0.4624,2.0,1000.0
+Step 2a - WF 500/500 no embargo,LSTM,0.715,0.715,1.0,0.8338,0.453,2.0,1000.0
+Step 2a - WF 500/500 no embargo,CNN-GAF,0.684,0.7076,0.951,0.8115,0.4823,2.0,1000.0
+Step 2b - WF 500/100 no embargo,MLP,0.5821,0.6596,0.768,0.7097,0.5048,14.0,1400.0
+Step 2b - WF 500/100 no embargo,LSTM,0.6371,0.6618,0.9291,0.773,0.5239,14.0,1400.0
+Step 2b - WF 500/100 no embargo,CNN-GAF,0.6586,0.6628,0.9903,0.7941,0.5831,14.0,1400.0
+Step 3b - WF 500/500 with embargo,MLP,0.693,0.7161,0.9515,0.8172,0.4667,2.0,1000.0
+Step 3b - WF 500/500 with embargo,LSTM,0.721,0.721,1.0,0.8379,0.4363,2.0,1000.0
+Step 3b - WF 500/500 with embargo,CNN-GAF,0.69,0.7138,0.9515,0.8157,0.4509,2.0,1000.0
+Step 3c - WF 500/100 with embargo,MLP,0.5814,0.6577,0.7683,0.7087,0.5003,14.0,1400.0
+Step 3c - WF 500/100 with embargo,LSTM,0.6357,0.6579,0.9386,0.7735,0.5302,14.0,1400.0
+Step 3c - WF 500/100 with embargo,CNN-GAF,0.6486,0.658,0.9784,0.7868,0.5703,14.0,1400.0

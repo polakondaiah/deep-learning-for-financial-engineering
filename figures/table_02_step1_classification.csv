@@ -1,0 +1,4 @@
+Protocol,Model,Accuracy,Precision,Recall,F1,AUC-ROC
+Step 1 - leaky single split,MLP,0.5391,0.5414,0.9843,0.6986,0.5221
+Step 1 - leaky single split,LSTM,0.5425,0.5425,1.0,0.7034,0.4866
+Step 1 - leaky single split,CNN-GAF,0.5425,0.5425,1.0,0.7034,0.4803

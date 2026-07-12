@@ -1,0 +1,4 @@
+Protocol,Model,Total Return,Buy & Hold Return,Sharpe,B&H Sharpe,Max Drawdown,Exposure,Trades
+Step 3b - WF 500/500 with embargo,MLP,49.87,68.43,0.601,0.734,-33.72,0.958,75
+Step 3b - WF 500/500 with embargo,LSTM,68.35,68.43,0.733,0.734,-33.72,1.0,1
+Step 3b - WF 500/500 with embargo,CNN-GAF,72.09,68.43,0.767,0.734,-33.72,0.961,27

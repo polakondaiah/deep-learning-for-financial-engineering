@@ -1,0 +1,4 @@
+Protocol,Model,Total Return,Buy & Hold Return,Sharpe,B&H Sharpe,Max Drawdown,Exposure,Trades
+Step 1 - leaky single split,MLP,8.09,8.53,0.272,0.281,-23.73,0.986,15
+Step 1 - leaky single split,LSTM,8.47,8.53,0.28,0.281,-24.5,1.0,1
+Step 1 - leaky single split,CNN-GAF,8.47,8.53,0.28,0.281,-24.5,1.0,1

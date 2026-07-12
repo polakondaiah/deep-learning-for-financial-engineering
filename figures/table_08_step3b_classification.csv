@@ -1,0 +1,4 @@
+Accuracy,Precision,Recall,F1,AUC-ROC,Protocol,Model,Folds,Test Obs
+0.693,0.7161,0.9515,0.8172,0.4667,Step 3b - WF 500/500 with embargo,MLP,2,1000
+0.721,0.721,1.0,0.8379,0.4363,Step 3b - WF 500/500 with embargo,LSTM,2,1000
+0.69,0.7138,0.9515,0.8157,0.4509,Step 3b - WF 500/500 with embargo,CNN-GAF,2,1000
