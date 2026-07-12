@@ -79,7 +79,7 @@ Re‑evaluated all strategies under realistic, leakage‑free conditions to ensu
 ## Repository Highlights
 
 | Category               | Key Libraries                         | Core Competencies                                    |
-|------------------------|-----------------------------------------------------|---------------------------------------|------------------------------------------------------|
+|------------------------|---------------------------------------|------------------------------------------------------|
 | **Programming & ML**   | NumPy, Pandas, Scikit‑learn, Matplotlib, Seaborn | Deep Learning, Financial Machine Learning            |
 | **Data & Assets**      | yfinance, pyts                        | Time‑Series Forecasting, CNN‑GAF                     |
 | **Modelling**          | TensorFlow, Keras                     | Multi‑output Learning, Sequence Modelling            |
