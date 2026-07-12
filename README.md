@@ -39,25 +39,25 @@ validation for financial machine learning.
 ## Repository Structure
 
 
+```bash
 deep-learning-for-financial-engineering/
-│
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 │
 ├── project_1_tactical_asset_allocation/
 │   ├── 01_spy_direction_forecasting.ipynb   # Main notebook (MLP, CNN-GAF, LSTM)
-│   ├── outputs/                             # All CSVs, figures, and summary tables
-│   ├── report.pdf│   
-│   
-│   
+│   ├── outputs/                              # All CSVs, figures, and summary tables
+│   └── report.pdf
 │
 ├── project_2_leakage_controlled_validation/
 │   ├── notebook.ipynb
-│   ├── outputs/ 
-│   └── report.pdf 
-│   
+│   ├── outputs/
+│   └── report.pdf
 │
+└── shared/
+    └── assets/
+```
 ├── shared/
 │
 └── assets/
