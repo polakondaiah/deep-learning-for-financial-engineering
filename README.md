@@ -21,6 +21,8 @@ performance estimates and demonstrates leakage-controlled walk-forward
 validation for financial machine learning.
 
 
+## Repository Highlights
+
 | Feature              | Description             |
 | -------------------- | ----------------------- |
 | Language             | Python                  |
