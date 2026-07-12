@@ -23,16 +23,12 @@ validation for financial machine learning.
 
 ## Repository Highlights
 
-| Feature              | Description             |
-| -------------------- | ----------------------- |
-| Language             | Python                  |
-| Framework            | TensorFlow / Keras      |
-| Assets               | SPY, TLT, SHY, GLD, DBO |
-| Models               | MLP, CNN-GAF, LSTM      |
-| Validation           | Walk-forward + Embargo  |
-| Dataset              | Yahoo Finance           |
-| Backtesting          | Yes                     |
-| Portfolio Allocation | Yes                     |
+| Category               | Specification                                       | Key Libraries                         | Core Competencies                                    |
+|------------------------|-----------------------------------------------------|---------------------------------------|------------------------------------------------------|
+| **Programming & ML**   | Python, TensorFlow / Keras                          | NumPy, Pandas, Scikit‑learn, Matplotlib, Seaborn | Deep Learning, Financial Machine Learning            |
+| **Data & Assets**      | SPY, TLT, SHY, GLD, DBO (via Yahoo Finance)        | yfinance, pyts                        | Time‑Series Forecasting, CNN‑GAF                     |
+| **Modelling**          | MLP, CNN‑GAF, LSTM (Multi‑output)                  | TensorFlow, Keras                     | Multi‑output Learning, Sequence Modelling            |
+| **Validation & Strategy** | Walk‑forward + Embargo, Backtesting, Portfolio Allocation | (Custom backtester)                   | Walk‑forward Validation, Embargo Validation, Tactical Asset Allocation, Quantitative Finance |
 
 
 
@@ -82,68 +78,9 @@ Financial Market Data
       Financial ML Insights
 ```
 
-## 📊 Project Overview
-
-| Category               | Specification                                       | Key Libraries                         | Core Competencies                                    |
-|------------------------|-----------------------------------------------------|---------------------------------------|------------------------------------------------------|
-| **Programming & ML**   | Python, TensorFlow / Keras                          | NumPy, Pandas, Scikit‑learn, Matplotlib, Seaborn | Deep Learning, Financial Machine Learning            |
-| **Data & Assets**      | SPY, TLT, SHY, GLD, DBO (via Yahoo Finance)        | yfinance, pyts                        | Time‑Series Forecasting, CNN‑GAF                     |
-| **Modelling**          | MLP, CNN‑GAF, LSTM (Multi‑output)                  | TensorFlow, Keras                     | Multi‑output Learning, Sequence Modelling            |
-| **Validation & Strategy** | Walk‑forward + Embargo, Backtesting, Portfolio Allocation | (Custom backtester)                   | Walk‑forward Validation, Embargo Validation, Tactical Asset Allocation, Quantitative Finance |
 
 
-## 📊 Project Overview
-
-| Feature              | Description             | Technology / Skill      | Details                                   |
-|----------------------|-------------------------|-------------------------|-------------------------------------------|
-| **Language**         | Python                  | Core Libraries          | NumPy, Pandas, Scikit‑learn               |
-| **Framework**        | TensorFlow / Keras      | Visualization           | Matplotlib, Seaborn                       |
-| **Assets**           | SPY, TLT, SHY, GLD, DBO | Data Sources            | yfinance, pyts                            |
-| **Models**           | MLP, CNN‑GAF, LSTM      | ML / Deep Learning      | Financial ML, CNN‑GAF, LSTM, Multi‑output |
-| **Validation**       | Walk‑forward + Embargo  | Validation Techniques   | Walk‑forward, Embargo                     |
-| **Backtesting**      | Yes                     | Quantitative Finance    | Tactical Asset Allocation, Backtesting    |
-| **Portfolio Allocation** | Yes                 |                         |                                           |
 
 
-## Technologies
-Python
 
-TensorFlow / Keras
 
-NumPy
-
-Pandas
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-yfinance
-
-pyts
-
-## Skills Demonstrated
-
-✔ Financial Machine Learning
-
-✔ Deep Learning
-
-✔ Time-Series Forecasting
-
-✔ Tactical Asset Allocation
-
-✔ Multi-output Learning
-
-✔ CNN-GAF
-
-✔ LSTM
-
-✔ Walk-forward Validation
-
-✔ Embargo Validation
-
-✔ Strategy Backtesting
-
-✔ Quantitative Finance
