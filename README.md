@@ -1,20 +1,5 @@
-# Deep Learning in Financial Engineering
+# Deep Learning for Financial Engineering
 
-This repository contains two complementary projects exploring deep learning techniques for financial time-series prediction and rigorous model validation.
+### Deep Learning • Financial Machine Learning • Time-Series Forecasting • Tactical Asset Allocation • Walk-Forward Validation
 
- These projects explore applications of deep learning in financial markets, including tactical asset allocation and robust validation techniques for financial time-series forecasting.
-
-## Project 1
-SPY Direction Forecasting using Deep Learning
-
-- MLP
-- LSTM
-- CNN-GAF
-
-## Project 2
-Leakage-Controlled Walk-Forward Validation
-
-- Walk-forward validation
-- Purged embargo
-- Backtesting
-- Comparison against Buy-and-Hold
+This repository contains two end-to-end deep learning projects completed for MScFE 642 – Deep Learning for Finance. Together, they explore the development, evaluation, and practical deployment of deep learning models for financial time-series prediction.
