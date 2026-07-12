@@ -48,12 +48,12 @@ deep-learning-for-financial-engineering/
 ├── project_1_tactical_asset_allocation/
 │   ├── 01_spy_direction_forecasting.ipynb   # Main notebook (MLP, CNN-GAF, LSTM)
 │   ├── outputs/                              # All CSVs, figures, and summary tables
-│   └── report.pdf
+│   └── project1_report___spy_direction_forecasting.pdf
 │
 ├── project_2_leakage_controlled_validation/
-│   ├── notebook.ipynb
+│   ├── 02_leakage_controlled_validation.ipynb
 │   ├── outputs/
-│   └── report.pdf
+│   └── project2_report___leakage_controlled_validation.pdf
 │
 └── shared/
     └── assets/
