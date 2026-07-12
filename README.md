@@ -74,13 +74,26 @@ Financial Market Data
 (Return Forecast) (Direction Prediction)
         │               │
         ▼               ▼
- Backtesting      Walk-Forward Validation
+ Backtesting      Walk-forward + EmbargoValidation
         │               │
         └───────────────┘
                 │
                 ▼
       Financial ML Insights
 ```
+
+
+## 📊 Project Overview
+
+| Feature              | Description             | Technology / Skill      | Details                                   |
+|----------------------|-------------------------|-------------------------|-------------------------------------------|
+| **Language**         | Python                  | Core Libraries          | NumPy, Pandas, Scikit‑learn               |
+| **Framework**        | TensorFlow / Keras      | Visualization           | Matplotlib, Seaborn                       |
+| **Assets**           | SPY, TLT, SHY, GLD, DBO | Data Sources            | yfinance, pyts                            |
+| **Models**           | MLP, CNN‑GAF, LSTM      | ML / Deep Learning      | Financial ML, CNN‑GAF, LSTM, Multi‑output |
+| **Validation**       | Walk‑forward + Embargo  | Validation Techniques   | Walk‑forward, Embargo                     |
+| **Backtesting**      | Yes                     | Quantitative Finance    | Tactical Asset Allocation, Backtesting    |
+| **Portfolio Allocation** | Yes                 |                         |                                           |
 
 
 ## Technologies
