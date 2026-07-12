@@ -21,7 +21,7 @@ performance estimates and demonstrates leakage-controlled walk-forward
 validation for financial machine learning.
 
 
-## Section 5 — Project 1: Return Forecasting
+## Project 1: Return Forecasting
 
 ### Overview
 Forecast 25‑day ETF returns using deep learning models to identify cross‑asset relationships and improve directional accuracy.
@@ -44,7 +44,7 @@ Forecast 25‑day ETF returns using deep learning models to identify cross‑ass
 
 ---
 
-## Section 6 — Project 2: Leakage‑Controlled Validation
+## Project 2: Leakage‑Controlled Validation
 
 ### Problem
 Standard walk‑forward validation can leak future information through overlapping training windows, inflating performance.
@@ -62,7 +62,7 @@ Re‑evaluated all strategies under realistic, leakage‑free conditions to ensu
 
 ---
 
-## Section 7 — Comparison
+## Projct 1 & Project 2 Comparison
 
 | Feature          | Project 1 (Return Forecasting) | Project 2 (Direction Prediction) |
 |------------------|--------------------------------|----------------------------------|
