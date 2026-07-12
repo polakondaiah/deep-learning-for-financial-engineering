@@ -58,7 +58,5 @@ deep-learning-for-financial-engineering/
 └── shared/
     └── assets/
 ```
-├── shared/
-│
-└── assets/
+
 
