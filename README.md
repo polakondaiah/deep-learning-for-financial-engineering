@@ -36,7 +36,7 @@ validation for financial machine learning.
 
 
 
-## Repository Structure
+## Repository Structure & Workflow
 
 
 ```bash
@@ -58,6 +58,7 @@ deep-learning-for-financial-engineering/
 └── shared/
     └── assets/
 
+=========================================================================================
 
 Financial Market Data
         │
