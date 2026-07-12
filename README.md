@@ -60,3 +60,26 @@ deep-learning-for-financial-engineering/
 ```
 
 
+## Skills Demonstrated
+
+✔ Financial Machine Learning
+
+✔ Deep Learning
+
+✔ Time-Series Forecasting
+
+✔ Tactical Asset Allocation
+
+✔ Multi-output Learning
+
+✔ CNN-GAF
+
+✔ LSTM
+
+✔ Walk-forward Validation
+
+✔ Embargo Validation
+
+✔ Strategy Backtesting
+
+✔ Quantitative Finance
