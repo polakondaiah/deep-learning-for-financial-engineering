@@ -57,8 +57,49 @@ deep-learning-for-financial-engineering/
 │
 └── shared/
     └── assets/
+
+
+Financial Market Data
+        │
+        ▼
+ Feature Engineering
+        │
+        ▼
+ Deep Learning Models
+        │
+        ├───────────────┐
+        ▼               ▼
+ Project 1         Project 2
+(Return Forecast) (Direction Prediction)
+        │               │
+        ▼               ▼
+ Backtesting      Walk-Forward Validation
+        │               │
+        └───────────────┘
+                │
+                ▼
+      Financial ML Insights
 ```
 
+
+## Technologies
+Python
+
+TensorFlow / Keras
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+Matplotlib
+
+Seaborn
+
+yfinance
+
+pyts
 
 ## Skills Demonstrated
 
