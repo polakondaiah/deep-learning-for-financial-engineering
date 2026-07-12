@@ -19,3 +19,15 @@ allocation across multiple exchange-traded funds (ETFs).
 Project 2 investigates how improper validation protocols can inflate
 performance estimates and demonstrates leakage-controlled walk-forward
 validation for financial machine learning.
+
+
+| Feature              | Description             |
+| -------------------- | ----------------------- |
+| Language             | Python                  |
+| Framework            | TensorFlow / Keras      |
+| Assets               | SPY, TLT, SHY, GLD, DBO |
+| Models               | MLP, CNN-GAF, LSTM      |
+| Validation           | Walk-forward + Embargo  |
+| Dataset              | Yahoo Finance           |
+| Backtesting          | Yes                     |
+| Portfolio Allocation | Yes                     |
