@@ -3,3 +3,19 @@
 ### Deep Learning • Financial Machine Learning • Time-Series Forecasting • Tactical Asset Allocation • Walk-Forward Validation
 
 This repository contains two end-to-end deep learning projects completed for  Deep Learning for Finance. Together, they explore the development, evaluation, and practical deployment of deep learning models for financial time-series prediction.
+
+
+## Overview
+
+Financial markets present unique challenges for machine learning, including
+non-stationarity, temporal dependence, regime shifts, and data leakage.
+
+This repository investigates these challenges through two complementary
+projects.
+
+Project 1 focuses on building deep learning models for tactical asset
+allocation across multiple exchange-traded funds (ETFs).
+
+Project 2 investigates how improper validation protocols can inflate
+performance estimates and demonstrates leakage-controlled walk-forward
+validation for financial machine learning.
