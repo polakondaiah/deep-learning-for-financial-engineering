@@ -82,6 +82,15 @@ Financial Market Data
       Financial ML Insights
 ```
 
+## 📊 Project Overview
+
+| Category               | Specification                                       | Key Libraries                         | Core Competencies                                    |
+|------------------------|-----------------------------------------------------|---------------------------------------|------------------------------------------------------|
+| **Programming & ML**   | Python, TensorFlow / Keras                          | NumPy, Pandas, Scikit‑learn, Matplotlib, Seaborn | Deep Learning, Financial Machine Learning            |
+| **Data & Assets**      | SPY, TLT, SHY, GLD, DBO (via Yahoo Finance)        | yfinance, pyts                        | Time‑Series Forecasting, CNN‑GAF                     |
+| **Modelling**          | MLP, CNN‑GAF, LSTM (Multi‑output)                  | TensorFlow, Keras                     | Multi‑output Learning, Sequence Modelling            |
+| **Validation & Strategy** | Walk‑forward + Embargo, Backtesting, Portfolio Allocation | (Custom backtester)                   | Walk‑forward Validation, Embargo Validation, Tactical Asset Allocation, Quantitative Finance |
+
 
 ## 📊 Project Overview
 
