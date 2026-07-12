@@ -20,6 +20,53 @@ Project 2 investigates how improper validation protocols can inflate
 performance estimates and demonstrates leakage-controlled walk-forward
 validation for financial machine learning.
 
+## Repository Structure & Workflow
+
+
+```bash
+deep-learning-for-financial-engineering/
+├── README.md
+├── LICENSE
+├── requirements.txt
+│
+├── project_1_tactical_asset_allocation/
+│   ├── 01_spy_direction_forecasting.ipynb   # Main notebook (MLP, CNN-GAF, LSTM)
+│   ├── outputs/                              # All CSVs, figures, and summary tables
+│   └── project1_report___spy_direction_forecasting.pdf
+│
+├── project_2_leakage_controlled_validation/
+│   ├── 02_leakage_controlled_validation.ipynb
+│   ├── outputs/
+│   └── project2_report___leakage_controlled_validation.pdf
+│
+└── shared/
+    └── assets/
+
+=========================================================================================
+
+Financial Market Data
+        │
+        ▼
+ Feature Engineering
+        │
+        ▼
+ Deep Learning Models
+        │
+        ├───────────────┐
+        ▼               ▼
+ Project 1         Project 2
+(Return Forecast) (Direction Prediction)
+        │               │
+        ▼               ▼
+ Backtesting      Walk-forward + EmbargoValidation
+        │               │
+        └───────────────┘
+                │
+                ▼
+      Financial ML Insights
+```
+
+
 
 ## Project 1: Return Forecasting
 
@@ -86,56 +133,46 @@ Re‑evaluated all strategies under realistic, leakage‑free conditions to ensu
 | **Validation & Strategy** | (Custom backtester)                   | Walk‑forward Validation, Embargo Validation, Tactical Asset Allocation, Quantitative Finance |
 
 
+## Installation
 
-## Repository Structure & Workflow
+git clone ...
 
+cd deep-learning-for-financial-engineering
 
-```bash
-deep-learning-for-financial-engineering/
-├── README.md
-├── LICENSE
-├── requirements.txt
-│
-├── project_1_tactical_asset_allocation/
-│   ├── 01_spy_direction_forecasting.ipynb   # Main notebook (MLP, CNN-GAF, LSTM)
-│   ├── outputs/                              # All CSVs, figures, and summary tables
-│   └── project1_report___spy_direction_forecasting.pdf
-│
-├── project_2_leakage_controlled_validation/
-│   ├── 02_leakage_controlled_validation.ipynb
-│   ├── outputs/
-│   └── project2_report___leakage_controlled_validation.pdf
-│
-└── shared/
-    └── assets/
-
-=========================================================================================
-
-Financial Market Data
-        │
-        ▼
- Feature Engineering
-        │
-        ▼
- Deep Learning Models
-        │
-        ├───────────────┐
-        ▼               ▼
- Project 1         Project 2
-(Return Forecast) (Direction Prediction)
-        │               │
-        ▼               ▼
- Backtesting      Walk-forward + EmbargoValidation
-        │               │
-        └───────────────┘
-                │
-                ▼
-      Financial ML Insights
-```
+pip install -r requirements.txt
 
 
+## Usage
+
+### Project 1
+
+↓
+
+Run notebook
+
+↓
+
+Generate predictions
+
+↓
+
+Backtest
 
 
+### Project 2
 
+Run notebook
+
+↓
+
+Walk-forward validation
+
+↓
+
+Embargo
+
+↓
+
+Evaluate
 
 
